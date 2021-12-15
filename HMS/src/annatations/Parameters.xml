@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Parameters">
+  <parameter name="id" value="9629848589"></parameter>
+  <parameter name="pass" value="qwerty"></parameter>
+    <classes>
+      <class name="annatations.Parameters"/>
+    </classes>
+  </test> <!-- Parameters -->
+</suite> <!-- Suite -->
